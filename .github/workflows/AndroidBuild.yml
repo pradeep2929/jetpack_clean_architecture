@@ -25,7 +25,7 @@
           uses: actions/upload-artifact@v4.3.1
           with:
             name : cleanArchitecture.apk
-            path: app/build/output/debug/apk/app_debug.apk
+            path: app/app_debug.apk
 
 
 
