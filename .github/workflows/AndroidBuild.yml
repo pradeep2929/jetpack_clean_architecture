@@ -18,6 +18,15 @@
             java-version: '17'
             distribution: 'adopt'
 
+        - name: Build
+          run: ./gradlew assembleDebug
+
+        - name: Unit Test
+          run: ./gradlew testDebugUnitTest
+
+        - name: Lint Check
+          run : ./gradlew lintDebug
+
         - name: Build with Gradle
           run: ./gradlew build
 
