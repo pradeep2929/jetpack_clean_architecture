@@ -14,8 +14,6 @@
 
         - name: Setup Java JDK
           uses: actions/setup-java@v4.1.0
-          with:
-            distribution: 'adopt'
 
         - name: Build with Gradle
           run: ./gradlew build
